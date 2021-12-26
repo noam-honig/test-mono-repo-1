@@ -21,10 +21,15 @@
         "experimentalDecorators": true,
         "moduleResolution": "node",
         "resolveJsonModule": true,
-        "sourceMap": true,
-        "declaration": true
+        "sourceMap": true
     },
     "include": [
         "src/**/*.ts"
     ]
+    // ,
+    // "references": [
+    //     {
+    //         "path": "../common/shared"
+    //     }
+    // ]
 }
