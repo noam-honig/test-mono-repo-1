@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "private": true,
     "main": "dist/index.js",
+    "scripts":{
+        "watch":"tsc --watch"
+    },
     "devDependencies": {
         "typescript": "^4.5.4"
     }

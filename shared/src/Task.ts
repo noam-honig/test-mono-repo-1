@@ -1,4 +1,4 @@
-import { Entity, Field, UuidField } from "remult";
+import { Entity, Field, UuidField, Validators } from "remult";
 @Entity('tasks', {
     allowApiCrud: true
 })
