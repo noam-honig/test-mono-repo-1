@@ -1,14 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
+import version from '@xyz/shared';
 import './App.css';
-const version = require('@xyz/shared');
-console.log(version.default);
+console.log(version);
 function App() {
   return (
     <div >
-
-      {version.default}
-
+      {version}
     </div>
   );
 }
